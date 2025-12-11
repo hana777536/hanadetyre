@@ -1,0 +1,75 @@
+.hkFirstSection {
+    position: relative;
+    width: 100%;
+}
+.hkFirstSection img {
+    width: 100%;
+    height: auto;
+}
+.hkFirstSection .SecondDiv {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    color: white;
+}
+.hkFirstSection .SecondDiv .Small {
+    font-size: 20px;
+    margin: 0;
+}
+.hkFirstSection .SecondDiv {
+    font-size: 48px;
+  margin-top: 5px;
+  font-weight: 600;
+}
+.SecondSection .Container .Row {
+    display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+    margin-top: 10px;
+
+ 
+}
+.SecondSection .Container .Row .CardOne:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+.SecondSection .Container .Row .CardTwo:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+.SecondSection .Container .Row .CardThree:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+.Text{
+    background-color: black;
+    padding: 30px;
+    color: white;
+    opacity:100%;
+    text-align: center;
+}
+.LastSection .ContainerTwo .RowTwo {
+    display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-right: 150px;
+  color: white;
+}
+.LastSection .ContainerTwo .RowTwo .ColOne {
+    background-color: rgb(90, 164, 254);
+    padding: 50px;
+}
+.LastSection .ContainerTwo .RowTwo .ColTwo {
+    background-color: rgb(30, 65, 109);
+    padding: 50px;
+}
+.MainFooter {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
